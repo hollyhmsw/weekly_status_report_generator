@@ -1,5 +1,5 @@
 # weekly_status_report_generator
-Generate a fake status report for your self and your team!
+Generate a fake status report for yourself and your team!
 
 This handy python script will generate a txt file for your weekly status report. Perfect for satisfying those bosses who demand a weekly status but are never likely to read it. 
 
