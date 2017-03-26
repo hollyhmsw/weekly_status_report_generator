@@ -1,14 +1,17 @@
 # weekly_status_report_generator
 Generate a fake status report for your self and your team!
 
-This handy python script will generate a txt file for your weekly status report. Perfect for those bosses who demand a weekly status but are never likely to read it. 
+This handy python script will generate a txt file for your weekly status report. Perfect for satisfying those bosses who demand a weekly status but are never likely to read it. 
 
 Simply edit the text files for names of your own teammates and project names and add/remove any statuses you like!
 
 To run: make sure all the files are together in the same directory
-python 
 
-Format of the files is:
+`python status_generator.py` 
+
+Output will be a text file named in the following format "status_report_month_day_year.txt"
+
+Contents of the file looks like:
 
 ------------------------------------------------------
 
