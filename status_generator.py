@@ -20,7 +20,7 @@ class StatusReportGenerator():
 
     #returns a random integer from a given range
     def get_number_of_items(self, range):
-        return random.randrange(1, range)
+        return random.randrange(0, range)
 
     def generate_report(self):
         dates = self.day_month_and_year()
@@ -34,11 +34,14 @@ class StatusReportGenerator():
         for name in names:
             report_file.writelines(name)
             items = self.get_number_of_items(5)
-            for x in range(items):
-                status = statuses[self.get_number_of_items(len(statuses))]
-                project_name = str(projects[self.get_number_of_items(len(projects))])
-                ticket = project_name.strip() + "-" +  str(self.get_number_of_items(2000))
-                report_file.writelines(" - " + ticket + ": " + status)
+            if items == 0:
+                report_file.writelines(" - On vacation this week.")
+            else:
+                for x in range(items):
+                    status = statuses[self.get_number_of_items(len(statuses))]
+                    project_name = str(projects[self.get_number_of_items(len(projects))])
+                    ticket = project_name.strip() + "-" +  str(self.get_number_of_items(2000))
+                    report_file.writelines(" - " + ticket + ": " + status)
             report_file.writelines("\n")
         report_file.close()
 

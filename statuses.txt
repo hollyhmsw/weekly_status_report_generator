@@ -58,3 +58,11 @@ Fended off efforts to underwhelm quality paradigms.
 Inspiring quote from Chris C: "Our ideation is the most high level thing at our company. Do your best to disrupt it."
 Decision made: At the end of the day, it's time to act with multiplatform deep dive.
 Heard the smackdown: If we vertically integrate, we will unfortunately be lagging in cloud-based wheelhouse.
+Wisdom from Fred: ”The earth has been around for billions of years. You only have about seventy five. Get to work."
+Colin’s feelings about this project: “Every man should pull a boat over a mountain once in his life.”
+Focused efforts on improving cross functional communication channels. 
+Clarified requirements to ensure we build within proper scope and current resource allocations
+Synced with eng leadership regarding scalability and direction of this ticket
+Ongoing framework feasibility discussions
+Considered tradeoffs for re-platforming vs faster-to-market on existing infrastructure
+Facilitated priority discussions between stakeholders with competing needs.
