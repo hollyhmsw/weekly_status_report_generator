@@ -66,3 +66,4 @@ Synced with eng leadership regarding scalability and direction of this ticket
 Ongoing framework feasibility discussions
 Considered tradeoffs for re-platforming vs faster-to-market on existing infrastructure
 Facilitated priority discussions between stakeholders with competing needs.
+Spent time editing the spreadsheet where I track the time I spend on things.
